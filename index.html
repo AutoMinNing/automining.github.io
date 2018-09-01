@@ -3,6 +3,17 @@
 	<head>
 		<title>MinNing</title>
 		<meta charset="utf-8">
+
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({
+				google_ad_client: "ca-pub-9520354222979516",
+				enable_page_level_ads: true
+			});
+		</script>
+
+
 	</head>
 	<body>
 		<a id='btn' href='https://google.com' target="_blank">Teext</a>
@@ -10,12 +21,14 @@
 			window.onload = function()
 			{
 				document.getElementById('btn').click();
+				alert("Wait 5 seconds...");
+				setTimeout(function(){
 				if(confirm("Opened web-site google.com?"))
 				{
 					alert("Good! Let's go MinNing!");
 				} else {
-					alert("Change web-browser settings, or turn-off AdBlock");
-				}
+					alert("Hmmm... Please try change web-browser settings, or turn-off AdBlock.");
+				}}, 5000);
 			}
 		</script>
 	</body>
