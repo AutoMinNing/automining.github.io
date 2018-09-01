@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MinNing</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<a id='btn' href='https://google.com' target="_blank">Teext</a>
+		<script type="text/javascript">
+			window.onload = function()
+			{
+				document.getElementById('btn').click();
+				if(confirm("Opened web-site google.com?"))
+				{
+					alert("Good! Let's go MinNing!");
+				} else {
+					alert("Change web-browser settings, or turn-off AdBlock");
+				}
+			}
+		</script>
+	</body>
+</html>
