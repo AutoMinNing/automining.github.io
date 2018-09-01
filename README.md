@@ -1,1 +1,1 @@
-# automining.github.io
+# autominning.github.io
